@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #165f86;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    background-color: #8ca4bd;
+    border-radius: 5px;
+}
+.content {
+    padding: 50px 20px;
+    background-color: cadetblue;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.certificates {
+    display: flex;
+    overflow-x: auto;
+    justify-content: space-between; /* Distribute space between items */
+    gap: 20px; /* Add space between images */
+    padding: 20px;
+}
+.certificates::-webkit-scrollbar{
+    display: none;
+}
+
+.certificates img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Box shadow for a subtle effect */
+}
+
+.Badges {
+    display: flex;
+    justify-content: space-around;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #165f86;
+    color: #fff;
+    position: relative;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 0;
+}
+
+
